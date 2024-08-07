@@ -3,5 +3,6 @@ requests
 psutil
 pyjwt
 gunicorn
+prisma
 uvicorn[standard]
 email-validator
