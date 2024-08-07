@@ -6,7 +6,7 @@ app = FastAPI()
 
 @app.get("/")
 async def apiname():
-    return {"Menssage": "ApiAthenticationJWT"}
+    return {"message": "ApiAthenticationJWT"}
 
 
 if __name__ == "__main__":
